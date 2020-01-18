@@ -6,7 +6,7 @@ vetor1=("A" "B" "C")
 vetor2=(a b c)
 
 for(( x=0; x<3; x++ )); do
-	read -p "Insira o valor de ${vetor1[$x]}: " ${vetor2[$x]}
+	read -p "Enter the value ${vetor1[$x]}: " ${vetor2[$x]}
 done
 
 delta="($b*$b)-4*$a*$c"
@@ -17,13 +17,13 @@ if(( $delta >= 0 )); then
 	
 	clear
 
-	echo "=====RESULTADOS====="
-	printf "O valor de x1 é: "
+	echo "========RESULTS========="
+	printf "The value of x1 is: "
 	echo $x1 | bc
 	
-	printf "O valor de x2 é: "
+	printf "The value of x1 is: "
 	echo $x2 | bc
-	echo "====================" 
+	echo "========================"
 else
-	echo 'O delta é negativo'
+	echo 'The delta is negative'
 fi
