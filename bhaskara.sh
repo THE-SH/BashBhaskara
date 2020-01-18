@@ -21,7 +21,7 @@ if(( $delta >= 0 )); then
 	printf "The value of x1 is: "
 	echo $x1 | bc
 	
-	printf "The value of x1 is: "
+	printf "The value of x2 is: "
 	echo $x2 | bc
 	echo "========================"
 else
