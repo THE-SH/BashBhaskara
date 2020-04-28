@@ -27,4 +27,3 @@ if(( $delta >= 0 )); then
 else
 	echo 'The delta is negative'
 fi
-1
